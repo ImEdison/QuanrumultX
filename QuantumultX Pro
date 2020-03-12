@@ -13,7 +13,7 @@ static=Apple, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Q
 [server_remote]
 
 [filter_remote]
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=7000+去广告规则订阅, enabled=true
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=去广告规则订阅, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Unbreak.list, tag=后续规则修正, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Advertising.list, tag=广告, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Hijacking.list, tag=运营商劫持及恶意网站, enabled=true
@@ -23,10 +23,10 @@ https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Apple.list, tag=Apple 服务, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/China.list, tag=中国直连, enabled=true
 [rewrite_remote]
-https://raw.githubusercontent.com/shigalin/Config/master/QuantumultX/Rewrite.list, tag=Shigalin, enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list, tag=GeQ1an, enabled=true
-http://cloudcompute.lbyczf.com/quanx-rewrite, tag=神机复写修正, enabled=true
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=lhie1复写, enabled=true
+https://raw.githubusercontent.com/shigalin/Config/master/QuantumultX/Rewrite.list, tag=@鶴曉語avi引用Shigalin, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list, tag=@鶴曉語avi引用GeQ1an, enabled=true
+http://cloudcompute.lbyczf.com/quanx-rewrite, tag=@鶴曉語avi引用神机复写修正, enabled=true
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=@鶴曉語avi引用lhie1复写, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag=神机规则Pro, enabled=true
 [server_local]
 [filter_local]
