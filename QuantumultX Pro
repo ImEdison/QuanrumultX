@@ -15,9 +15,7 @@ static=Final, proxy, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Ru
 static=GlobalMedia, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
 static=HKMTMedia, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HKMTMedia.png
 static=Apple, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-[server_remote]
-https://dler.cloud/subscribe/IV8HRpBNgar7r0W3?protocols=ss&list=quantumultx, tag=DlerCloud：台湾、日本、香港, enabled=true
-[filter_remote]
+[server_remote][filter_remote]
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=7000+去广告规则订阅, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Unbreak.list, tag=后续规则修正, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Advertising.list, tag=广告, enabled=true
