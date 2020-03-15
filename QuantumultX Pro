@@ -1,13 +1,12 @@
 [general]
 server_check_url=http://bing.com/
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
-dns_exclusion_list = *.cmpassport.com,  *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, *.cmbchina.com
+dns_exclusion_list = *.cmpassport.com,  *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, *.cmbchina.com
 [dns]
 server=119.29.29.29
-server=114.114.114.114
 server=223.5.5.5
+server=114.114.114.114
 [policy]
-static=AdBlock, direct, proxy, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/AdBlock.png
 static=Final, proxy, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Outside.png
 static=GlobalMedia, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
 static=HKMTMedia, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HKMTMedia.png
@@ -24,13 +23,17 @@ https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Apple.list, tag=Apple 服务, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/China.list, tag=中国直连, enabled=true
 [rewrite_remote]
-https://raw.githubusercontent.com/shigalin/Config/master/QuantumultX/Rewrite.list, tag=Shigalin, enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list, tag=GeQ1an, enabled=true
+https://raw.githubusercontent.com/shigalin/Config/master/QuantumultX/Rewrite.list, tag=Shigalin复写, enabled=true
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list, tag=GeQ1an复写, enabled=true
 http://cloudcompute.lbyczf.com/quanx-rewrite, tag=神机复写修正, enabled=true
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=lhie1复写, enabled=true
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag=神机规则Pro（ConnersHua 修改于2019年12月31日）, enabled=true
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag=神机规则Pro, enabled=true
 [server_local]
 [filter_local]
+;user-agent, ?abc*, proxy
+;host, www.google.com, proxy
+;host-keyword, adsite, reject
+;host-suffix, googleapis.com, proxy
 host, p14-buy.itunes.apple.com,proxy
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 127.0.0.0/8, direct
@@ -41,6 +44,4 @@ geoip, cn, direct
 final, Final
 [rewrite_local]
 [mitm]
-passphrase = F9B7904D
-p12 = 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
 hostname = *.googlevideo.com
