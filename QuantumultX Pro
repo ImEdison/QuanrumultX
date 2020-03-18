@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag=神机规则Pro, enabled=true
 [server_local]
 [filter_local]
-#如果需要屏蔽iOS系统更新、请自行注释掉下面以“;”开头的代码#
+#如果需要屏蔽iOS系统更新、请自行删除掉屏蔽代码开头的“;"#
 ;host, mesu.apple.com, reject
 ;host, gdmf.apple.com, reject
 ;host, updates-http.cdn-apple.com, reject
