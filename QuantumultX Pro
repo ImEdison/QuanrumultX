@@ -17,6 +17,7 @@ static=HKMTMedia, direct, proxy, img-url=https://raw.githubusercontent.com/Kools
 static=Apple, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 [server_remote]
 [filter_remote]
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=7000+去广告订阅, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Unbreak.list, tag=后续规则修正, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Advertising.list, tag=广告, enabled=true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Hijacking.list, tag=运营商劫持及恶意网站, enabled=true
